@@ -193,7 +193,7 @@ The system in \eqref{eqn:sysEqCL} is infinite-dimensional with respect to $\vo{\
 An almost-sure (a.s.) stability analysis of linear systems from a polynomial chaos framework is prohibitive, except for some special cases \cite{dutta2010nonlinear, ghanem2003stochastic}. However, the equivalence of a.s. stability to exponential-mean-square (EMS) stability for LTI systems \cite{chen1995linear} means that we can use EMS  analysis, a far more favorable framework based on moments, to examine our system in the PC setting.
 
 \textit{Derivation}:
-Define a parameter-dependent Lyapunov function $V(\vo{x}) := \vo{x}^T \vo{P}(\Del) \vo{x}$.
+Define a parameter-dependent Lyapunov function $V(\vo{x}) := \vo{x}^T \vo{P}(\Del) \vo{x}$.\\
 Represent $\vo{P(\Delta)}$ using homogeneous polynomial-based parameter-dependent quadratic functions, i.e.,
 \begin{align}
 	\vo{P(\Delta)} := {\vo{\Phi_n^T (\Delta)}} \bar{\vo{P}} \vo{\Phi_n (\Delta)}, \, \bar{\vo{P}} \in \mathcal{S}_{++}^{n(N+1)}
@@ -655,12 +655,12 @@ Weights $\vo{Q}$ and $\vo{R}$ are chosen to normalize the state and control traj
 % \end{figure}
 
 Figure \ref{kGain} depicts the increase in control gain with approximation order whereas figure \ref{yTrajRed} shows the closed-loop response for $V^t$, $\alpha^t$, and $\gamma^t$ with the gain $\vo{K}$ for the 7th order.
-\begin{align*}
-\vo{K} = \begin{bmatrix}
--2.1343 & -27.5283  & 47.2558   & 6.3542 \\
--0.9637 & -23.8061  & 44.1652   & 9.9286
-\end{bmatrix}
-\end{align*}
+% \begin{align*}
+% \vo{K} = \begin{bmatrix}
+% -2.1343 & -27.5283  & 47.2558   & 6.3542 \\
+% -0.9637 & -23.8061  & 44.1652   & 9.9286
+% \end{bmatrix}
+% \end{align*}
 The response here is for the linear system for various values of $\Del$.
 The initial condition used here is: $\vo{x}_0^T := (0\, 0\, \frac{30 \pi}{180}\, 0)$, which corresponds
 to $\gamma(0) = 30^{\circ}$.
@@ -690,7 +690,7 @@ Moreover, the impact of a multi-dimensional parameter space, i.e. $\Del \subset 
 \bibliographystyle{elsarticle-num}
 \bibliography{citations}
 
-\begin{figure}[h!]
+\begin{figure}[!ht]
 \begin{subfigure}[t]{0.23\textwidth}
    \includegraphics[width=\textwidth]{figs/openLoopPoles.eps}
    \caption{Open-loop poles of the uncertain model and the reduced-order model with 7th-order approximation.}
@@ -703,7 +703,7 @@ Moreover, the impact of a multi-dimensional parameter space, i.e. $\Del \subset 
    \end{subfigure}
    \caption{Open and closed-loop poles.}
 \end{figure}
-
+\vspace{100mm}
 \begin{figure}[!ht]
 \begin{subfigure}[t]{0.23\textwidth}
    \includegraphics[width=\textwidth]{figs/ctrbEnergy.eps}
@@ -719,8 +719,10 @@ Moreover, the impact of a multi-dimensional parameter space, i.e. $\Del \subset 
    \caption{Controllability and controller gain.}
 \end{figure}
 
-\begin{figure}[h!]
-   \includegraphics[width=0.5\textwidth]{figs/yTrajRed.eps}
+\begin{figure}[!ht]
+        \begin{centering}
+   \includegraphics[width=0.45\textwidth]{figs/yTrajRed.eps}
+\end{centering}
    \caption{Output trajectories obtained using the reduced order model. The initial condition is: $\vo{x}_0^T := (0\, 0\, \frac{30 \pi}{180}\, 0)$.}
    \label{yTrajRed}
 \end{figure}

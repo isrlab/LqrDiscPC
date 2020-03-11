@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex root"] 1583941910 "root.aux" "root.bbl" "root" 1583942058
+["bibtex root"] 1583943100 "root.aux" "root.bbl" "root" 1583943716
   "/usr/share/texlive/texmf-dist/bibtex/bst/elsarticle/elsarticle-num.bst" 1253317863 30001 6fb47de13cacd52e2c80466b180be262 ""
   "citations.bib" 1583941736 7177 ca1b1e0ca5883c8f2853fd011772d198 ""
-  "root.aux" 1583942058 3365 80ce5ad825eb5f31302d92d0c05f9780 ""
+  "root.aux" 1583943716 3365 80ce5ad825eb5f31302d92d0c05f9780 ""
   "root.bcf" 0 -1 0 ""
   (generated)
   "root.bbl"
   "root.blg"
-["pdflatex"] 1583942058 "root.tex" "/home/vish0908/Dropbox/ACC 2020 - pcDiscLQR/root.pdf" "root" 1583942058
+["pdflatex"] 1583943716 "root.tex" "/home/vish0908/Dropbox/ACC 2020 - pcDiscLQR/root.pdf" "root" 1583943716
   "/etc/texmf/web2c/texmf.cnf" 1551459661 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/vish0908/Dropbox/ACC 2020 - pcDiscLQR/root.aux" 1583942058 3365 80ce5ad825eb5f31302d92d0c05f9780 ""
+  "/home/vish0908/Dropbox/ACC 2020 - pcDiscLQR/root.aux" 1583943716 3365 80ce5ad825eb5f31302d92d0c05f9780 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -166,12 +166,12 @@
   "figs/openLoopPoles.eps" 1568921678 37649 8cb33709a809489c8a6e83e935b6e40b ""
   "figs/yTrajRed.eps" 1583770996 480378 3c79a76399455d8c144ce9eab25d674c ""
   "ieeeconf.cls" 1568581732 202167 7b37f8353df61c9733ed46143eff807a ""
-  "root.aux" 1583942058 3365 80ce5ad825eb5f31302d92d0c05f9780 ""
-  "root.bbl" 1583941910 3556 0713d3b6356e3bed20da53c3929c8ef9 "bibtex root"
-  "root.tex" 1583942058 43070 c7b0fea2a094e240940b26a0e1a49bfa ""
+  "root.aux" 1583943716 3365 80ce5ad825eb5f31302d92d0c05f9780 ""
+  "root.bbl" 1583943100 3556 0713d3b6356e3bed20da53c3929c8ef9 "bibtex root"
+  "root.tex" 1583943716 43143 705c5ee92b6480ad9c16a88146fafd32 ""
   (generated)
-  "root.log"
-  "/home/vish0908/Dropbox/ACC 2020 - pcDiscLQR/root.log"
+  "/home/vish0908/Dropbox/ACC 2020 - pcDiscLQR/root.pdf"
   "root.pdf"
   "root.aux"
-  "/home/vish0908/Dropbox/ACC 2020 - pcDiscLQR/root.pdf"
+  "root.log"
+  "/home/vish0908/Dropbox/ACC 2020 - pcDiscLQR/root.log"
