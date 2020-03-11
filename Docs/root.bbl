@@ -1,0 +1,85 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{barmish1997uniform}
+B.~R. Barmish, C.~M. Lagoa, The uniform distribution: A rigorous justification
+  for its use in robustness analysis, Mathematics of Control, Signals and
+  Systems 10~(3) (1997) 203--222.
+
+\bibitem{willems1971least}
+J.~Willems, Least squares stationary optimal control and the algebraic riccati
+  equation, IEEE Transactions on Automatic Control 16~(6) (1971) 621--634.
+
+\bibitem{daafouz2001parameter}
+J.~Daafouz, J.~Bernussou, Parameter dependent lyapunov functions for discrete
+  time systems with time varying parametric uncertainties, Systems \& control
+  letters 43~(5) (2001) 355--359.
+
+\bibitem{de1999new}
+M.~C. De~Oliveira, J.~Bernussou, J.~C. Geromel, A new discrete-time robust
+  stability condition, Systems \& control letters 37~(4) (1999) 261--265.
+
+\bibitem{zhang2007improved}
+X.~Zhang, M.~Wu, J.~She, D.~Han, An improved robust stability and robust
+  stabilization method for linear discrete-time uncertain systems, Journal of
+  Control Theory and Applications 5~(1) (2007) 99--103.
+
+\bibitem{tempo2012randomized}
+R.~Tempo, G.~Calafiore, F.~Dabbene, Randomized algorithms for analysis and
+  control of uncertain systems: with applications, Springer Science \& Business
+  Media, 2012.
+
+\bibitem{kim2013wiener}
+K.-K.~K. Kim, D.~E. Shen, Z.~K. Nagy, R.~D. Braatz, Wiener's polynomial chaos
+  for the analysis and control of nonlinear dynamical systems with
+  probabilistic uncertainties [historical perspectives], IEEE Control Systems
+  Magazine 33~(5) (2013) 58--67.
+
+\bibitem{bhattacharya2014robust}
+R.~Bhattacharya, Robust state feedback control design with probabilistic system
+  parameters, in: 53rd IEEE Conference on Decision and Control, IEEE, 2014, pp.
+  2828--2833.
+
+\bibitem{xiu2002wiener}
+D.~Xiu, G.~E. Karniadakis, The wiener--askey polynomial chaos for stochastic
+  differential equations, SIAM journal on scientific computing 24~(2) (2002)
+  619--644.
+
+\bibitem{fisher2009linear}
+J.~Fisher, R.~Bhattacharya, Linear quadratic regulation of systems with
+  stochastic parameter uncertainties, Automatica 45~(12) (2009) 2831--2841.
+
+\bibitem{bhattacharya2019robust}
+R.~Bhattacharya, Robust lqr design for systems with probabilistic uncertainty,
+  International Journal of Robust and Nonlinear Control.
+
+\bibitem{stengel1991stochastic}
+R.~F. Stengel, L.~Ryan, Stochastic robustness of linear time-invariant control
+  systems, IEEE Transactions on Automatic Control 36~(1) (1991) 82--87.
+
+\bibitem{polyak2001probabilistic}
+B.~T. Polyak, R.~Tempo, Probabilistic robust design with linear quadratic
+  regulators, Systems \& Control Letters 43~(5) (2001) 343--353.
+
+\bibitem{stevens2015aircraft}
+B.~L. Stevens, F.~L. Lewis, E.~N. Johnson, Aircraft control and simulation:
+  dynamics, controls design, and autonomous systems, John Wiley \& Sons, 2015.
+
+\bibitem{dutta2010nonlinear}
+P.~Dutta, R.~Bhattacharya, Nonlinear estimation with polynomial chaos and
+  higher order moment updates, in: Proceedings of the 2010 American Control
+  Conference, IEEE, 2010, pp. 3142--3147.
+
+\bibitem{ghanem2003stochastic}
+R.~G. Ghanem, P.~D. Spanos, Stochastic finite elements: a spectral approach,
+  Courier Corporation, 2003.
+
+\bibitem{chen1995linear}
+G.~Chen, G.~Chen, S.-H. Hsu, Linear stochastic control systems, Vol.~3, CRC
+  press, 1995.
+
+\end{thebibliography}
